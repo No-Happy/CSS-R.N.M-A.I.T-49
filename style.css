@@ -1,0 +1,27 @@
+.menu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.menu a:hover{
+background: #0097e6;
+color: aqua;
+text-decoration: underline #40739e;
+}
+@media screen and (max-width:600px){
+    .menu{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .menu a{
+        background-color: indigo;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
